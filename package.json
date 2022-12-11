@@ -1,0 +1,31 @@
+{
+  "name": "node-http-and-worker",
+  "version": "1.0.0",
+  "description": "Node HTTP server and task worker demo with Redis",
+  "main": "src/index.js",
+  "dependencies": {
+    "redis": "^4.5.1"
+  },
+  "scripts": {
+    "start:server": "node src/index.js",
+    "start:worker": "node ./src/worker/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://muratyaman: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@github.com/muratyaman/node-http-and-worker.git"
+  },
+  "keywords": [
+    "node",
+    "http",
+    "server",
+    "worker",
+    "redis"
+  ],
+  "author": "Haci Murat Yaman",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/muratyaman/node-http-and-worker/issues"
+  },
+  "homepage": "https://github.com/muratyaman/node-http-and-worker#readme"
+}
